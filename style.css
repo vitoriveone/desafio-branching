@@ -29,17 +29,17 @@ form {
   outline: none;
   border: none;
   cursor: pointer;
-  display: block;
   position: relative;
   background-color: #676264;
   padding: 20px 80px;
-  margin: 0 auto;
+  margin: 1rem;
   border-radius: 20px;
   box-shadow: 0 6px #2E282A;
+  transition: background-color ease-in-out 0.3s;
 }
   
 .btn a {
-    color: white;
+  color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -51,9 +51,15 @@ form {
 .btn:hover {
   box-shadow: 0 4px #2E282A;
   top: 2px; 
+  background-color: #FF9933;
 }
 
 .btn:active {
   box-shadow: none;
   top: 6px; 
 } 
+
+.descripcion{
+  display: flex;
+  justify-content: center;
+}
