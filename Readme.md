@@ -1,3 +1,3 @@
 # Ejercicio Desafío Branching
 
-Ejercicio de práctica con *git* y *githu*.
+- Ejercicio de práctica con *git* y *github*.
